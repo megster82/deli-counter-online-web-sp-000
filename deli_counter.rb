@@ -11,7 +11,12 @@ def line(katz_deli)
 end 
 
 def take_a_number(katz_deli, name)
-  
+  katz_deli.push(name)
+  greeting = []
+  katz_deli.each_with_index do |name, position|
+    greeting = "Welcome, #{name}. You are number #{position + 1} in line."
+  end 
+  puts greeting
 end
 
 
