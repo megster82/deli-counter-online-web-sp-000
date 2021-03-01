@@ -19,8 +19,6 @@ def take_a_number(katz_deli, name)
   puts greeting
 end
 
-
-
 def now_serving
   puts ""
 end
