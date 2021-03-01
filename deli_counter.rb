@@ -20,6 +20,9 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving
-  puts ""
+  if katz_deli.count == 0
+    puts "There is nobody waiting to be served!"
+  else
+  now_serving = 
 end
 
